@@ -1,0 +1,36 @@
+body,head{
+    background-color: greenyellow;
+    text-align: center;
+    padding:10px;
+    position: relative;
+    height:800px;
+    width:500px;
+}
+
+.full-block{
+    position: absolute;
+    display: inline-block;
+    text-align: center; 
+    height:100%;
+    width:100%;
+    margin:10px;
+    padding: 10px;;
+}
+
+.full-block input,#zinga{
+    background-color: green;
+    color:white;
+    height:30px;
+    margin:10px;
+    padding:10px;
+    width:200px;
+}
+::placeholder{
+    color:white;
+}
+
+#b1{
+    height:40px;
+}
+
+
